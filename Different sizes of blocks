@@ -1,0 +1,16 @@
+  Results of blocks with different sizes, the color space of them is same which is LMS and HSI, 
+the following result is the median of 1000 times.
+block_size 3:
+SROCC_avg: 0.695986  PLCC_avg: 0.723343  RMSE_avg: 0.785901
+
+block_size 5:
+SROCC_avg: 0.689464  PLCC_avg: 0.720626  RMSE_avg: 0.788247
+
+block_size 8:
+SROCC_avg: 0.681723  PLCC_avg: 0.718426  RMSE_avg: 0.789674
+
+block_size 16:
+SROCC_avg: 0.679163  PLCC_avg: 0.720468  RMSE_avg: 0.790625
+
+block_size 32:
+SROCC_avg: 0.679343  PLCC_avg: 0.717742  RMSE_avg: 0.790482
