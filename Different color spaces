@@ -1,0 +1,22 @@
+Results of different color spaces, the size of block is same which is 3*3,  
+the following result is the median of 1000 times.
+In HSI (hue, saturation, intensity), the arithmetic mean and standard deviation of hue and saturation are computed as the feature,
+all of the color space is computed combined with these four features.
+
+RGB+HSI:
+SROCC_avg: 0.711059  PLCC_avg: 0.744903  KRCC_avg: 0.520584  RMSE_avg: 0.758999
+
+LMS+HSI:
+SROCC_avg: 0.695986  PLCC_avg: 0.723343  KRCC_avg: 0.505888  RMSE_avg: 0.785901
+
+LAB+HSI:
+SROCC_avg: 0.698743  PLCC_avg: 0.734782  KRCC_avg: 0.508602  RMSE_avg: 0.772784
+
+XYZ+HSI:
+SROCC_avg: 0.695658  PLCC_avg: 0.725523  KRCC_avg: 0.506057  RMSE_avg: 0.784107 
+
+YUV+HSI:
+SROCC_avg: 0.683384  PLCC_avg: 0.718405  KRCC_avg: 0.494943  RMSE_avg: 0.790606 
+
+YCbCr+HSI:
+SROCC_avg: 0.700715  PLCC_avg: 0.728855  KRCC_avg: 0.511316  RMSE_avg: 0.778463 
